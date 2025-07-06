@@ -1,0 +1,140 @@
+Hier ist dein **Website Grundgerüst ausschließlich mit HTML und CSS** (ohne JavaScript).
+Da **ohne JS keine dynamischen Seitenwechsel möglich sind**, setze ich ein simples **HTML-only Layout mit Seitenstruktur** um. Normalerweise würdest du pro Menüpunkt eigene HTML-Dateien erstellen oder mit `<a href>` verlinken. Hier aber ein **einseitiges Beispiel** mit statischen Abschnitten und einem reinen CSS-Menü, das du direkt erweiterst:
+
+---
+
+### ✅ **Website nur mit HTML & CSS**
+
+````html
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Server Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #f4f4f4;
+    }
+    nav {
+      background: #333;
+      color: #fff;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    nav li {
+      padding: 10px 20px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    section {
+      padding: 20px;
+    }
+    .blog-post, .news {
+      background: white;
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    form input, form select, form button {
+      display: block;
+      margin: 10px 0;
+      padding: 5px;
+      width: 300px;
+      max-width: 90%;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#blog">Blog</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#shop">Shop</a></li>
+    <li><a href="#info">Informationen</a></li>
+    <li><a href="#about">Über uns</a></li>
+    <li><a href="#admin">Admin Panel</a></li>
+  </ul>
+</nav>
+
+<section id="home">
+  <h1>Willkommen auf dem Server</h1>
+  <p>Startseite Inhalte...</p>
+</section>
+
+<section id="blog">
+  <h2>Blog</h2>
+  <div class="blog-post">
+    <h3>Blog Titel</h3>
+    <p>Blog Inhalt...</p>
+    <p>👍 👎</p>
+  </div>
+</section>
+
+<section id="news">
+  <h2>News</h2>
+  <div class="news">
+    <h3>News Titel</h3>
+    <p>News Inhalt...</p>
+  </div>
+</section>
+
+<section id="shop">
+  <h2>Shop</h2>
+  <form>
+    <label>Produkt:
+      <select>
+        <option>VIP</option>
+        <option>Premium</option>
+        <option>Supreme</option>
+      </select>
+    </label>
+    <label>Ingame Name:
+      <input type="text">
+    </label>
+    <label>E-Mail:
+      <input type="email">
+    </label>
+    <label>Paysafe Card Code:
+      <input type="text">
+    </label>
+    <label>Vorname:
+      <input type="text">
+    </label>
+    <label>Nachname:
+      <input type="text">
+    </label>
+    <button type="submit">Bestellen</button>
+  </form>
+</section>
+
+<section id="info">
+  <h2>Informationen</h2>
+  <p>Servergeschichte, Team, Regeln...</p>
+</section>
+
+<section id="about">
+  <h2>Über uns</h2>
+  <p>Teamvorstellung mit Discord Links:</p>
+  <ul>
+    <li>ToxicGHE (ToxicGHE), Owner</li>
+    <li>OGM (zOGMz), Owner</li>
+    <li>Jannik (jannik6746), Co-Owner, 13</li>
+    <li>Johk267 (johk267), Co-Owner</li>
+    <li>Astrooo (FIamFrags), DEV</li>
+    <li>Ma254 (Ma254), DEV</li>
+    <li>Jakob (Delta___...), Mod</li>
+    <li>Gleichbedwars (Gleichbedwar1), Mod</li>
+    <li>mskkilla (mskkilla), Sup</li>\n  </ul>\n</section>\n\n<section id=\"admin\">\n  <h2>Admin Panel</h2>\n  <p>Nur für Admin sichtbar (ohne JS/PHP hier immer sichtbar).</p>\n  <div>\n    <h3>Bestellungen verwalten</h3>\n    <p>Liste aller Bestellungen...</p>\n  </div>\n  <div>\n    <h3>News & Blog Posts verwalten</h3>\n    <p>Erstellen, bearbeiten, planen...</p>\n  </div>\n</section>\n\n</body>\n</html>\n```\n\n---\n\n### ⚠️ **Wichtige Hinweise (reines HTML/CSS)**\n✔ Kein Login-System möglich ohne JS oder Backend (PHP, Node.js)  \n✔ Kein echtes „Panel“ ohne serverseitige Logik  \n✔ Buttons und Formulare senden ohne Script keine Daten ab  \n✔ Für deinen finalen Shop & Admin musst du **JavaScript und Backend** einsetzen.\n\nFalls du willst, kann ich dir als Nächstes:\n- **Komplettes Multi-HTML Seitenkonzept mit internen Links**\n- **Backend Beispiel (PHP, Node.js)**\n- **Vollständiges Tailwind UI Redesign** erstellen.\n\nSag Bescheid, wie du strukturiert weiter vorgehen möchtest für dein Serverprojekt und deine Developer Dokumentation diese Woche.
+````
